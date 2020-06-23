@@ -3,61 +3,119 @@
 }
 
 body {
-	font-family: geneva,arial,helvetica;
-	margin: 0;
+  margin: 0;
+  font-family: "Lucida Grande";
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .clear {
-	clear: left;
-}	
-
-.container {
-	max-width: 1170px;
-	width: 100%;
-	padding: 0 15px;
-	margin: 0 auto;
+  clear: left;
 }
 
-.container p {
-	height: 15px;
-	margin: 0 auto;
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.text-logo {
+  color: white;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  font-size: 15px;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://3.bp.blogspot.com/-XnVIANXU2R8/WBIxTIS-epI/AAAAAAAABNo/NaTsriwdjBkL_ekpztoovpQjhb_dE4jJwCLcB/s1600/Politeknik%2BNegeri%2BMedia%2BKreatif.jpg);
+  background-size: cover;
+  color: #00008B;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.9;
+  margin-bottom: 3px;
+  letter-spacing: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.google {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
 }
 
 .fa {
-	margin-right: 5px;
+  margin-right: 5px;
 }
 
 header {
-	background-color: rgba(119, 136, 153, 0.9);
-	color: #fff;
-	height: 100px;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	z-index: 10;
+  height: 65px;
+  width: 100%;
+  background-color: rgba(119, 136, 153, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .logo {
-	width: 150px;
-	margin-top: 15px;
-	height: 60px;
+  width: 124px;
+  margin-top: 20px;
 }
 
 .header-left {
-	float: left;
+  float: left;
 }
 
 .header-right {
-	float: right;
-	margin-right: -15px;
+  float: right;
+  margin-right: -25px;
 }
-	
+
 .header-right a {
-  line-height: 75px;
+  line-height: 65px;
   padding: 0 25px;
   color: white;
   display: block;
@@ -70,19 +128,95 @@ header {
 }
 
 .menu-icon {
-  color: white !important;
-  float: right !important;
-  font-size: 25px !important;
-  padding: 21px 0 !important;
-  display: none !important;
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
 
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://lh3.googleusercontent.com/Cj1tfFMn8QiN2PDSIuBGFcNkF-L-sMtJk7tkBQ2J_7Ni7OZ2Kb2C5JA_F3LjitHL0dY), url(https://duniafintech.com/wp-content/uploads/2019/10/PUBG-Mobile-1068x601.jpeg);
-  background-position: left, right;
-  background-repeat: no-repeat, repeat;
-  color: white;
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #DEB887;
   text-align: center;
-  height: 600px;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 50%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 100px;
+  left: 230px;
+  width: 100px;
+  color: #006400;
+}
+
+.lesson-icon img {
+  width: 50%;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #006400;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #FA8072;
+  cursor: pointer;
+  box-shadow: 0 7px #FFDAB9;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 130px;
+}
+
+footer p {
+  color: #F5DEB3;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 35px;
+  padding-bottom: 25px;
+  background-color: black;
 }
