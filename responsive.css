@@ -16,7 +16,7 @@
   }
   
   .menu-icon {
-    display: block;
+    display: block !important;
   }
   
 }
