@@ -6,11 +6,6 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .logo {
-    width: 50px
-    height: 15px
-  }
-  
   .header-right {
     display: none;
   }
