@@ -36,12 +36,10 @@
     text-align: left;
   }
   
-  /* Tambahkan CSS untuk header-right */
-  .header-right {
+   .header-right {
     display: none;
   }
   
-  /* Tambahkan CSS untuk menu-icon */
   .menu-icon {
     display: block !important;
   }
@@ -54,5 +52,11 @@
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
+  }
+  
+  .lesson-icon p {
+  position: absolute;
+  top: 20px;
+  left: 50px;
   }
 }
