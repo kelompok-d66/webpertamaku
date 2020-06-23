@@ -4,14 +4,14 @@
 
 }
 
-/* Untuk Smartfren */
+/* Untuk Smartphone */
 @media all and (max-width: 670px) {
   .header-right {
     display: none;
   }
   
   .menu-icon {
-    display: block !important;
+    display: block;
   }
   
 }
