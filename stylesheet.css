@@ -128,11 +128,11 @@ header {
 }
 
 .menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
+  color: white !important;
+  float: right !important;
+  font-size: 25px !important;
+  padding: 21px 0 !important;
+  display: none !important;
 }
 
 
