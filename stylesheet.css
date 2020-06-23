@@ -1,0 +1,80 @@
+body {
+	font-family: geneva,arial,helvetica;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.container p {
+	height: 15px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #778899;
+	color: #fff;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.logo {
+	width: 150px;
+	margin-top: 15px;
+	height: 60px;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-right {
+	float: right;
+	margin-right: 15px;
+}
+
+.header-right a {
+  line-height: 80px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://lh3.googleusercontent.com/Cj1tfFMn8QiN2PDSIuBGFcNkF-L-sMtJk7tkBQ2J_7Ni7OZ2Kb2C5JA_F3LjitHL0dY), url(https://duniafintech.com/wp-content/uploads/2019/10/PUBG-Mobile-1068x601.jpeg);
+  background-position: left, right;
+  background-repeat: no-repeat, repeat;
+  color: white;
+  text-align: center;
+  height: 600px;
+}
