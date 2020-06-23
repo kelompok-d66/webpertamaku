@@ -58,6 +58,10 @@
     line-height: 20px;
   }
   
+  .lesson-icon {
+    position: relative;
+  }
+  
   .lesson-icon p {
   position: absolute;
   top: 35px;
